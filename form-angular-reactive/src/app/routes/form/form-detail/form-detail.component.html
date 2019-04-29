@@ -41,7 +41,7 @@
     </label>
   </div>
 </form>
-
-
+<button class="btn btn-primary" (click)="asigna()">Asigna</button>
+<p>Name value: {{ heroForm.get('name').value }}</p>
 <p>Form value: {{ heroForm.value | json }}</p>
 </div>

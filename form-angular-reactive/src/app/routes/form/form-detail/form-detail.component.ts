@@ -26,4 +26,17 @@ export class FormDetailComponent implements OnInit {
     });
   }
 
+  asigna() {
+    this.heroForm.setValue({
+      name:    "Carlos Lott",
+      street:  "6254",
+      city: "Saniago",
+      state: 'CA',
+      zip: "8610",
+      power: "strength",
+      sidekick: false
+
+   });
+  }
+
 }
